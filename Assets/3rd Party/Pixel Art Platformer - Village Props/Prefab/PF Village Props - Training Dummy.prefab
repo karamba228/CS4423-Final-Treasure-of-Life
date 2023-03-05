@@ -14,8 +14,6 @@ GameObject:
   - component: {fileID: 7525547520749115587}
   - component: {fileID: 2730380755822306715}
   - component: {fileID: 1003783782932606263}
-  - component: {fileID: 7064506280867351955}
-  - component: {fileID: 5494495455927636644}
   m_Layer: 0
   m_Name: PF Village Props - Training Dummy
   m_TagString: Untagged
@@ -116,6 +114,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3779584a966604b409c3f2e172aec5b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  hitTorque: 50
+  torque: 2
 --- !u!60 &2730380755822306715
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -201,47 +204,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!231 &7064506280867351955
-SpringJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4106967144069191874}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 1.99}
-  m_ConnectedAnchor: {x: 20.7, y: -0.23290038}
-  m_AutoConfigureDistance: 1
-  m_Distance: 3.4178908
-  m_DampingRatio: 0
-  m_Frequency: 1
---- !u!233 &5494495455927636644
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4106967144069191874}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: -0.0000006979121, y: 0.0000027695044}
-  m_ConnectedAnchor: {x: 22.44, y: -0.14999625}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: -5
-    m_UpperAngle: 5

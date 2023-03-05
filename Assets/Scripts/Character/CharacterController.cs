@@ -31,7 +31,7 @@ public class CharacterController : MonoBehaviour
     private float jumpCount;
 
     private bool isAttackPressed;
-    private bool isAttacking;
+    private bool isAttacking = false;
     private bool isDoubleAttacking;
     private bool isAnimatingAttack;
     private int clickCount;
