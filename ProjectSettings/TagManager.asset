@@ -41,6 +41,30 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackGround Far
+    uniqueID: 2197752093
+    locked: 0
+  - name: BackGround Close
+    uniqueID: 3052007465
+    locked: 0
+  - name: Ground
+    uniqueID: 1101239583
+    locked: 0
+  - name: Enemy
+    uniqueID: 2818257041
+    locked: 0
+  - name: Weapons
+    uniqueID: 3120467855
+    locked: 0
+  - name: Player
+    uniqueID: 3272270689
+    locked: 0
+  - name: Items
+    uniqueID: 1059374091
+    locked: 0
+  - name: ForeGround
+    uniqueID: 613510547
+    locked: 0
   - name: UI
     uniqueID: 3884370467
     locked: 0
